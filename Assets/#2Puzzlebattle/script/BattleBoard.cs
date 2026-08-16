@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 using Unity.VisualScripting.Antlr3.Runtime.Tree;
 >>>>>>> 376c1458b1e99c82f151fa3c0c58e24d958e9dfa
+=======
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
+>>>>>>> main
 using UnityEngine;
 using Random = UnityEngine.Random;
 public class BattleBoard : MonoBehaviour
@@ -15,17 +19,23 @@ public class BattleBoard : MonoBehaviour
     void Start()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         CreateBoard(10, 10);
     }
     #region att
     public int boardX, boardY;
 =======
+=======
+>>>>>>> main
         BoardX = 10;
         BoardY = 10;
     }
     #region att
     private int boardX, boardY;
+<<<<<<< HEAD
 >>>>>>> 376c1458b1e99c82f151fa3c0c58e24d958e9dfa
+=======
+>>>>>>> main
     public int BoardX
     {
         get { return boardX; }
@@ -33,9 +43,13 @@ public class BattleBoard : MonoBehaviour
         { 
             boardX = value;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             CreateBoard();
 >>>>>>> 376c1458b1e99c82f151fa3c0c58e24d958e9dfa
+=======
+            CreateBoard();
+>>>>>>> main
         }
     }
     public int BoardY
@@ -45,9 +59,13 @@ public class BattleBoard : MonoBehaviour
         { 
             boardY = value;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             CreateBoard();
 >>>>>>> 376c1458b1e99c82f151fa3c0c58e24d958e9dfa
+=======
+            CreateBoard();
+>>>>>>> main
         }
     }
     #endregion
@@ -57,6 +75,7 @@ public class BattleBoard : MonoBehaviour
     public List<GameObject> TileList;
     public int[] TileValue;
     public Sprite[] Spr;
+<<<<<<< HEAD
 <<<<<<< HEAD
     public List<PB_player> PlayerList;
     #endregion
@@ -162,6 +181,8 @@ public class BattleBoard : MonoBehaviour
         }
         SwapTile(index1, index2);
 =======
+=======
+>>>>>>> main
     public Transform player1, player2;
     #endregion
     #region func
@@ -250,7 +271,10 @@ public class BattleBoard : MonoBehaviour
             //Debug.Log(GetIndexOfBlock(getBlockAt(x - 1, y)));
             return getBlockAt(x - 1, y);
         }
+<<<<<<< HEAD
 >>>>>>> 376c1458b1e99c82f151fa3c0c58e24d958e9dfa
+=======
+>>>>>>> main
     }
     #endregion
 }

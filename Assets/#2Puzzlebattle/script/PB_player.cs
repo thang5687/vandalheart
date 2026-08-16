@@ -4,10 +4,13 @@ using System.Collections.Generic;
 public class PB_player : MonoBehaviour
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     private void OnEnable()
     {
         holding = false;
 =======
+=======
+>>>>>>> main
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -26,7 +29,10 @@ public class PB_player : MonoBehaviour
                 Xmin = 5; Ymin = 0; Xmax = 9; Ymax = 9;
                 break;
         }
+<<<<<<< HEAD
 >>>>>>> 376c1458b1e99c82f151fa3c0c58e24d958e9dfa
+=======
+>>>>>>> main
         anim = StartCoroutine(iconRotateAnime());
         StartCoroutine(RegisterButtons(PlayerId));
     }
@@ -36,6 +42,7 @@ public class PB_player : MonoBehaviour
         StopCoroutine(anim);
     }
     #region att
+<<<<<<< HEAD
 <<<<<<< HEAD
     public int playerid;
     public int PlayerId
@@ -72,27 +79,37 @@ public class PB_player : MonoBehaviour
         get { return BattleBoard.instance; }
     }
 =======
+=======
+>>>>>>> main
     public int PlayerId;
     public int Xmin, Ymin, Xmax, Ymax;
     public GameObject CurrentSelectTile, CurrentStandingTile;
     #endregion
     #region com
     private Coroutine anim;
+<<<<<<< HEAD
 >>>>>>> 376c1458b1e99c82f151fa3c0c58e24d958e9dfa
+=======
+>>>>>>> main
     #endregion
     #region func
     private IEnumerator iconRotateAnime()
     {
         Vector3 rt = new Vector3(0, 0, 0.3f);
 <<<<<<< HEAD
+<<<<<<< HEAD
         Pointer.transform.eulerAngles = new Vector3(0,0,-3f);
 =======
         transform.eulerAngles = new Vector3(0,0,-3f);
 >>>>>>> 376c1458b1e99c82f151fa3c0c58e24d958e9dfa
+=======
+        transform.eulerAngles = new Vector3(0,0,-3f);
+>>>>>>> main
         while (true)
         {
             for (int i = 0; i < 20; i++)
             {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 Pointer.transform.eulerAngles += rt;
                   yield return new WaitForEndOfFrame();
@@ -101,13 +118,18 @@ public class PB_player : MonoBehaviour
             {
                 Pointer.transform.eulerAngles -= rt;
 =======
+=======
+>>>>>>> main
                 transform.eulerAngles += rt;
                 yield return new WaitForEndOfFrame();
             }
             for (int i = 0; i < 20; i++)
             {
                 transform.eulerAngles -= rt;
+<<<<<<< HEAD
 >>>>>>> 376c1458b1e99c82f151fa3c0c58e24d958e9dfa
+=======
+>>>>>>> main
                 yield return new WaitForEndOfFrame();
             }
         }
@@ -139,6 +161,7 @@ public class PB_player : MonoBehaviour
         GameManager.GM.Act_Fire4Down[player] = null;
         GameManager.GM.Act_DownDown[player] += () =>
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             if(!holding) MovePlayer("Down");
             else if(holding) SwapTile("Down");
@@ -288,6 +311,8 @@ public class PB_player : MonoBehaviour
             }
         }
 =======
+=======
+>>>>>>> main
             MovePlayer(new Vector3Int(0, -1, 0));
         };
         GameManager.GM.Act_UpDown[player] += () =>
@@ -346,7 +371,10 @@ public class PB_player : MonoBehaviour
             CurrentSelectTile = null;
         }
         catch { }
+<<<<<<< HEAD
 >>>>>>> 376c1458b1e99c82f151fa3c0c58e24d958e9dfa
+=======
+>>>>>>> main
     }
     #endregion
 }
