@@ -6,6 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/#0MainScreen/Main.unity
     guid: 9de76209fddc3e34ebff95654978e094
   - enabled: 1
@@ -16,6 +17,15 @@ EditorBuildSettings:
     guid: e365bd1c2e69ef54199882dff2f84cc3
   - enabled: 1
     path: Assets/#3Puzzle/Puzzle.unity
+=======
+    path: Assets/@Scenes/Main.unity
+    guid: 9de76209fddc3e34ebff95654978e094
+  - enabled: 1
+    path: Assets/@Scenes/Vandal.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/@Scenes/Game0.unity
+>>>>>>> origin/main
     guid: dfed31c0e02633644b067eff9eeb7c92
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
