@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f542a6a197156c644bcf214b074c27cd
+guid: d50fa62ae7e512c4589a81b8678cfaa1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5495477101122074339
-    second: SeoJiwoo (3)_0
+      213: -4022529831598165275
+    second: square blue_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -47,11 +47,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 590
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SeoJiwoo (3)_0
+      name: square blue_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1024
-        height: 1024
+        width: 584
+        height: 591
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d19435c51b42cb3b0800000000000000
-      internalID: -5495477101122074339
+      spriteID: 5e2fd213e6a1d28c0800000000000000
+      internalID: -4022529831598165275
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SeoJiwoo (3)_0: -5495477101122074339
+      square blue_0: -4022529831598165275
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
